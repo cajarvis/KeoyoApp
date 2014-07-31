@@ -21,6 +21,8 @@
 		D0255A8C1978848100FB1F41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0255A6E1978848100FB1F41 /* UIKit.framework */; };
 		D0255A941978848100FB1F41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0255A921978848100FB1F41 /* InfoPlist.strings */; };
 		D0255A961978848100FB1F41 /* LearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0255A951978848100FB1F41 /* LearningTests.m */; };
+		D0255AA119788DF200FB1F41 /* CJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0255AA019788DF200FB1F41 /* CJMainViewController.m */; };
+		D0255AA4197894A300FB1F41 /* CJCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0255AA3197894A300FB1F41 /* CJCallViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		D0255A911978848100FB1F41 /* LearningTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearningTests-Info.plist"; sourceTree = "<group>"; };
 		D0255A931978848100FB1F41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0255A951978848100FB1F41 /* LearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningTests.m; sourceTree = "<group>"; };
+		D0255A9F19788DF200FB1F41 /* CJMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJMainViewController.h; sourceTree = "<group>"; };
+		D0255AA019788DF200FB1F41 /* CJMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJMainViewController.m; sourceTree = "<group>"; };
+		D0255AA2197894A300FB1F41 /* CJCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJCallViewController.h; sourceTree = "<group>"; };
+		D0255AA3197894A300FB1F41 /* CJCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJCallViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				D0255A791978848100FB1F41 /* CJAppDelegate.h */,
 				D0255A7A1978848100FB1F41 /* CJAppDelegate.m */,
 				D0255A7C1978848100FB1F41 /* Main.storyboard */,
+				D0255AA2197894A300FB1F41 /* CJCallViewController.h */,
+				D0255AA3197894A300FB1F41 /* CJCallViewController.m */,
+				D0255A9F19788DF200FB1F41 /* CJMainViewController.h */,
+				D0255AA019788DF200FB1F41 /* CJMainViewController.m */,
 				D0255A7F1978848100FB1F41 /* CJViewController.h */,
 				D0255A801978848100FB1F41 /* CJViewController.m */,
 				D0255A821978848100FB1F41 /* Images.xcassets */,
@@ -252,6 +262,8 @@
 			files = (
 				D0255A771978848100FB1F41 /* main.m in Sources */,
 				D0255A7B1978848100FB1F41 /* CJAppDelegate.m in Sources */,
+				D0255AA4197894A300FB1F41 /* CJCallViewController.m in Sources */,
+				D0255AA119788DF200FB1F41 /* CJMainViewController.m in Sources */,
 				D0255A811978848100FB1F41 /* CJViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

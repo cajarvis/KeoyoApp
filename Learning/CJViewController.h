@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CJViewController : UIViewController
+@interface CJViewController : UIViewController<UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *username;
+@property (weak, nonatomic) IBOutlet UITextField *password;
+- (IBAction)logIn:(id)sender;
 
 @end
