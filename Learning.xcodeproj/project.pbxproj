@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A849E0B0199A738B0087AF48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A849E0AF199A738B0087AF48 /* Images.xcassets */; };
+		A849E0B3199A8EA30087AF48 /* NewMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A849E0B2199A8EA30087AF48 /* NewMessageViewController.m */; };
+		A849E0B6199A8F3D0087AF48 /* ThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A849E0B5199A8F3D0087AF48 /* ThreadViewController.m */; };
+		A86BE09E19991D9E00806E0D /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86BE09D19991D9E00806E0D /* MessagesViewController.m */; };
+		A86BE0A119991DBF00806E0D /* CallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86BE0A019991DBF00806E0D /* CallViewController.m */; };
+		A86BE0A419991DD200806E0D /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A86BE0A319991DD200806E0D /* ContactViewController.m */; };
 		D0255A6B1978848100FB1F41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0255A6A1978848100FB1F41 /* Foundation.framework */; };
 		D0255A6D1978848100FB1F41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0255A6C1978848100FB1F41 /* CoreGraphics.framework */; };
 		D0255A6F1978848100FB1F41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0255A6E1978848100FB1F41 /* UIKit.framework */; };
@@ -15,14 +21,12 @@
 		D0255A7B1978848100FB1F41 /* CJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0255A7A1978848100FB1F41 /* CJAppDelegate.m */; };
 		D0255A7E1978848100FB1F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0255A7C1978848100FB1F41 /* Main.storyboard */; };
 		D0255A811978848100FB1F41 /* CJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0255A801978848100FB1F41 /* CJViewController.m */; };
-		D0255A831978848100FB1F41 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0255A821978848100FB1F41 /* Images.xcassets */; };
 		D0255A8A1978848100FB1F41 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0255A891978848100FB1F41 /* XCTest.framework */; };
 		D0255A8B1978848100FB1F41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0255A6A1978848100FB1F41 /* Foundation.framework */; };
 		D0255A8C1978848100FB1F41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0255A6E1978848100FB1F41 /* UIKit.framework */; };
 		D0255A941978848100FB1F41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0255A921978848100FB1F41 /* InfoPlist.strings */; };
 		D0255A961978848100FB1F41 /* LearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0255A951978848100FB1F41 /* LearningTests.m */; };
 		D0255AA119788DF200FB1F41 /* CJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0255AA019788DF200FB1F41 /* CJMainViewController.m */; };
-		D0255AA4197894A300FB1F41 /* CJCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0255AA3197894A300FB1F41 /* CJCallViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A849E0AF199A738B0087AF48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A849E0B1199A8EA30087AF48 /* NewMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMessageViewController.h; sourceTree = "<group>"; };
+		A849E0B2199A8EA30087AF48 /* NewMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMessageViewController.m; sourceTree = "<group>"; };
+		A849E0B4199A8F3D0087AF48 /* ThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadViewController.h; sourceTree = "<group>"; };
+		A849E0B5199A8F3D0087AF48 /* ThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadViewController.m; sourceTree = "<group>"; };
+		A86BE09C19991D9E00806E0D /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		A86BE09D19991D9E00806E0D /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		A86BE09F19991DBF00806E0D /* CallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallViewController.h; sourceTree = "<group>"; };
+		A86BE0A019991DBF00806E0D /* CallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallViewController.m; sourceTree = "<group>"; };
+		A86BE0A219991DD200806E0D /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		A86BE0A319991DD200806E0D /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		D0255A671978848100FB1F41 /* Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0255A6A1978848100FB1F41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0255A6C1978848100FB1F41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,7 +64,6 @@
 		D0255A7D1978848100FB1F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0255A7F1978848100FB1F41 /* CJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJViewController.h; sourceTree = "<group>"; };
 		D0255A801978848100FB1F41 /* CJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJViewController.m; sourceTree = "<group>"; };
-		D0255A821978848100FB1F41 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0255A881978848100FB1F41 /* LearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0255A891978848100FB1F41 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D0255A911978848100FB1F41 /* LearningTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearningTests-Info.plist"; sourceTree = "<group>"; };
@@ -57,8 +71,6 @@
 		D0255A951978848100FB1F41 /* LearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningTests.m; sourceTree = "<group>"; };
 		D0255A9F19788DF200FB1F41 /* CJMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJMainViewController.h; sourceTree = "<group>"; };
 		D0255AA019788DF200FB1F41 /* CJMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJMainViewController.m; sourceTree = "<group>"; };
-		D0255AA2197894A300FB1F41 /* CJCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJCallViewController.h; sourceTree = "<group>"; };
-		D0255AA3197894A300FB1F41 /* CJCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJCallViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,13 +133,21 @@
 				D0255A791978848100FB1F41 /* CJAppDelegate.h */,
 				D0255A7A1978848100FB1F41 /* CJAppDelegate.m */,
 				D0255A7C1978848100FB1F41 /* Main.storyboard */,
-				D0255AA2197894A300FB1F41 /* CJCallViewController.h */,
-				D0255AA3197894A300FB1F41 /* CJCallViewController.m */,
+				A849E0B4199A8F3D0087AF48 /* ThreadViewController.h */,
+				A849E0B5199A8F3D0087AF48 /* ThreadViewController.m */,
+				A849E0B1199A8EA30087AF48 /* NewMessageViewController.h */,
+				A849E0B2199A8EA30087AF48 /* NewMessageViewController.m */,
+				A86BE0A219991DD200806E0D /* ContactViewController.h */,
+				A86BE0A319991DD200806E0D /* ContactViewController.m */,
+				A86BE09F19991DBF00806E0D /* CallViewController.h */,
+				A86BE0A019991DBF00806E0D /* CallViewController.m */,
+				A86BE09C19991D9E00806E0D /* MessagesViewController.h */,
+				A86BE09D19991D9E00806E0D /* MessagesViewController.m */,
 				D0255A9F19788DF200FB1F41 /* CJMainViewController.h */,
 				D0255AA019788DF200FB1F41 /* CJMainViewController.m */,
 				D0255A7F1978848100FB1F41 /* CJViewController.h */,
 				D0255A801978848100FB1F41 /* CJViewController.m */,
-				D0255A821978848100FB1F41 /* Images.xcassets */,
+				A849E0AF199A738B0087AF48 /* Images.xcassets */,
 				D0255A711978848100FB1F41 /* Supporting Files */,
 			);
 			path = Learning;
@@ -239,7 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0255A831978848100FB1F41 /* Images.xcassets in Resources */,
+				A849E0B0199A738B0087AF48 /* Images.xcassets in Resources */,
 				D0255A751978848100FB1F41 /* InfoPlist.strings in Resources */,
 				D0255A7E1978848100FB1F41 /* Main.storyboard in Resources */,
 			);
@@ -262,8 +282,12 @@
 			files = (
 				D0255A771978848100FB1F41 /* main.m in Sources */,
 				D0255A7B1978848100FB1F41 /* CJAppDelegate.m in Sources */,
-				D0255AA4197894A300FB1F41 /* CJCallViewController.m in Sources */,
+				A849E0B6199A8F3D0087AF48 /* ThreadViewController.m in Sources */,
+				A86BE09E19991D9E00806E0D /* MessagesViewController.m in Sources */,
+				A849E0B3199A8EA30087AF48 /* NewMessageViewController.m in Sources */,
 				D0255AA119788DF200FB1F41 /* CJMainViewController.m in Sources */,
+				A86BE0A419991DD200806E0D /* ContactViewController.m in Sources */,
+				A86BE0A119991DBF00806E0D /* CallViewController.m in Sources */,
 				D0255A811978848100FB1F41 /* CJViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +493,7 @@
 				D0255A9B1978848100FB1F41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0255A9C1978848100FB1F41 /* Build configuration list for PBXNativeTarget "LearningTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +502,7 @@
 				D0255A9E1978848100FB1F41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

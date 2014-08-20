@@ -9,6 +9,7 @@
 #import "CJViewController.h"
 
 @interface CJViewController ()
+@property (strong, nonatomic) IBOutlet UIButton *loginButton;
 
 @end
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    _loginButton.layer.borderColor = [UIColor whiteColor].CGColor;
+    _loginButton.layer.borderWidth = 2.0f;
+    _loginButton.layer.backgroundColor = [UIColor blueColor].CGColor;
 }
 
 - (void)didReceiveMemoryWarning
@@ -29,8 +33,11 @@
 
 -(void)checkLogIn:(NSString *)uname : (NSString *)pwd
 {
-    NSString * rPassword = @"school";
-    NSString * rUsername = @"dewey";
+    
+    NSString * rUsername = @"a";
+    NSString * rPassword = @"a";
+    
+    _password.secureTextEntry = YES;
     
     if ([rPassword isEqualToString: pwd] && [rUsername isEqualToString: uname] )
     {

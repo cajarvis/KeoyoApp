@@ -1,22 +1,19 @@
 //
-//  CJCallViewController.m
+//  ContactViewController.m
 //  Learning
 //
-//  Created by Charlie Jarvis on 7/17/14.
+//  Created by Alexandra Miller-Browne on 8/11/14.
 //  Copyright (c) 2014 KEOYO. All rights reserved.
 //
 
-#import "CJCallViewController.h"
+#import "ContactViewController.h"
 
-@interface CJCallViewController ()
+@interface ContactViewController ()
 
 @end
 
-@implementation CJCallViewController
-{
-    NSMutableArray*number;
+@implementation ContactViewController
 
-}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -26,22 +23,12 @@
     return self;
 }
 
+//use checkmark to indicate if have the app in the table view cell
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    number=[[NSMutableArray alloc] init];
-    [number addObject:@"1"];
-    [number addObject:@"2"];
-    [number addObject:@"3"];
-    [number addObject:@"4"];
-    [number addObject:@"5"];
-    [number addObject:@"6"];
-    [number addObject:@"7"];
-    [number addObject:@"8"];
-    [number addObject:@"9"];
-    [number addObject:@"0"];
-    
-    
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
