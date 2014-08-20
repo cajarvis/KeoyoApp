@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0EAEF0B0-D0D4-41C3-9411-7400A714ADC6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Learning</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6C48FBF8-5668-488D-AF09-184E6AB41C3E</key>
+		<string>https://github.com/cajarvis/KeoyoApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Learning.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6C48FBF8-5668-488D-AF09-184E6AB41C3E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cajarvis/KeoyoApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6C48FBF8-5668-488D-AF09-184E6AB41C3E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6C48FBF8-5668-488D-AF09-184E6AB41C3E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KeoyoApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
